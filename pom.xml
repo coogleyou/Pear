@@ -6,7 +6,7 @@
 
     <groupId>io.github.rollenholt</groupId>
     <artifactId>Pear</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <parent>

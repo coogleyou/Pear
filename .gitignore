@@ -117,6 +117,7 @@ junit*.properties
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 .idea/*
+target/*
 
 # JIRA plugin
 atlassian-ide-plugin.xml
