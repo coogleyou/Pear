@@ -19,7 +19,7 @@ public abstract class StrategyContext<T extends Strategy> {
 
         T t = context.get(key);
         if(t == null){
-            throw new RuntimeException("can not fetch startegy for input key: " + key.toString());
+            throw new RuntimeException("can not fetch strategy for input key: " + key.toString());
         }
         return t;
     }

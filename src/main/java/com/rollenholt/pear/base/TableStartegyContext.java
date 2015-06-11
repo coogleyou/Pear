@@ -20,7 +20,7 @@ public abstract class TableStartegyContext<T extends Strategy> {
 
         T t = context.get(key1, key2);
         if(t == null){
-            String errMsg = String.format("can not fetch startegy for input key pair: [%s, %s]", key1.toString(), key2.toString());
+            String errMsg = String.format("can not fetch strategy for input key pair: [%s, %s]", key1.toString(), key2.toString());
             throw new RuntimeException(errMsg);
         }
         return t;
